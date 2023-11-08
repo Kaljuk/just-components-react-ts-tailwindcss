@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Inter;
+	src: url('/fonts/Inter.ttf') format('truetype');
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span,
+a,
+button,
+input,
+textarea,
+label,
+li,
+ul,
+ol {
+	all: unset;
+	font-family: Inter;
+}
